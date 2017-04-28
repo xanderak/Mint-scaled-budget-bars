@@ -14,7 +14,7 @@ $1000 over is obviously more noticeable than $5 over.
 - **Green** is how much budget you have **left**.
 - **Red** is how much has been **overspent**.
 
-https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/scaled%20budget%20bars.png
+![](https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/scaled%20budget%20bars.png)
 
 ## Notes
 
