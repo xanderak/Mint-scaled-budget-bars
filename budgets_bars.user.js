@@ -7,6 +7,9 @@
 // @author      Terry Raymond
 // @version     0.1
 // @homepage    https://github.com/xanderak/Mint-scaled-budget-bars
+// @updateURL    https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
+// @downloadURL  https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
+// @supportURL   https://github.com/xanderak/Mint-scaled-budget-bars/issues
 // @grant       none
 // @noframes
 // ==/UserScript==
