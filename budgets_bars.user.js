@@ -5,7 +5,7 @@
 // @description Make bars scale relative to how big the budgets are.
 // @namespace   
 // @author      Terry Raymond
-// @version     0.1
+// @version     0.2
 // @homepage    https://github.com/xanderak/Mint-scaled-budget-bars
 // @updateURL    https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
 // @downloadURL  https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
