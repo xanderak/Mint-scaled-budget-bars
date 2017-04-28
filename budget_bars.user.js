@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name        Mint.com scaled budget bars
-// @include     https://*.mint.com/planning.event
+// @include     https://*.mint.com/planning.event*
+// @include     https://mint.intuit.com/planning.event*
 // @description Make bars scale relative to how big the budgets are.
 // @namespace   https://github.com/xanderak/Mint-scaled-budget-bars
 // @author      Terry Raymond
-// @version     0.21
+// @version     0.22
 // @homepage    https://github.com/xanderak/Mint-scaled-budget-bars
-// @updateURL   https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
-// @downloadURL https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
+// @updateURL   https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budget_bars.user.js
+// @downloadURL https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budget_bars.user.js
 // @supportURL  https://github.com/xanderak/Mint-scaled-budget-bars/issues
 // @grant       none
 // @noframes
