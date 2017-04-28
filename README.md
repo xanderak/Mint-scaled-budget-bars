@@ -3,9 +3,9 @@ In the Budgets screen on Mint, this scales the bars relative to the size of the 
 $1000 over is obviously more noticeable than $5 over.
 
 ## New colors
-- Gray is how much you have spent.
-- Green is how much budget you have LEFT
-- Red is how much has been OVER spent.
+- **Gray** is how much you have spent.
+- **Green** is how much budget you have **left**.
+- **Red** is how much has been **overspent**.
 
 ## Installation instructions
 
