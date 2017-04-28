@@ -1,6 +1,6 @@
 # Mint Scaled Budget Bars
 In the Budgets screen on Mint, this scales the bars relative to the size of the budget and the amount spent.
-$1000 over is obviously more noticeable than $5 over.
+$1000 over is obviously more noticeable than $5 over, and you can tell very quickly if you are overspent!
 
 ## Installation instructions
 
