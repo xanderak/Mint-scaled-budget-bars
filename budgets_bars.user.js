@@ -1,15 +1,14 @@
 // ==UserScript==
 // @name        Mint.com scaled budget bars
-// @include     https://*.mint.com/*
-// @include     https://mint.intuit.com/*
+// @include     https://*.mint.com/planning.event
 // @description Make bars scale relative to how big the budgets are.
-// @namespace   
+// @namespace   https://github.com/xanderak/Mint-scaled-budget-bars
 // @author      Terry Raymond
-// @version     0.2
+// @version     0.21
 // @homepage    https://github.com/xanderak/Mint-scaled-budget-bars
-// @updateURL    https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
-// @downloadURL  https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
-// @supportURL   https://github.com/xanderak/Mint-scaled-budget-bars/issues
+// @updateURL   https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
+// @downloadURL https://github.com/xanderak/Mint-scaled-budget-bars/raw/master/budgets_bars.user.js
+// @supportURL  https://github.com/xanderak/Mint-scaled-budget-bars/issues
 // @grant       none
 // @noframes
 // ==/UserScript==
@@ -30,7 +29,7 @@ function scaleBars() {
     var i;
     for (i=0; i < elmHTMLColl.length; i++) elmBudgets[i] = elmList.children[i]; //convert HTML collection to an array
     elmBudgets.push(document.getElementById("spendingEE-list-total"));
-    
+
     var budgets = [];  //new object with screen elements and budget values
     var maxMoney = 1;  //maximum amount to scale everything to.
     const defMaxBarWidth="513"; //default max bar width in Mint
@@ -70,6 +69,12 @@ function scaleBars() {
             budgets[i].progBar.setAttribute("style", "width:"+newProgBarWidth+"px; z-index: 90; background:red;"); 
         }
     }
+
+    //reload this so when users click around the bars update
+    setTimeout(scaleBars, 500);
+
 }
 
 scaleBars();
+
+window.addEventListener("click", scaleBars);
