@@ -9,11 +9,10 @@ $1000 over is obviously more noticeable than $5 over.
 
 ## Installation instructions
 
-* If you are on chrome, download the [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) extension.
-* On other browsers, use the [GreaseMonkey](https://addons.mozilla.org/en-GB/firefox/addon/greasemonkey/) extension.
-* Once installed, click on [this](https://raw.githubusercontent.com/xanderak/Mint-scaled-budget-bars/master/mint_scaled_budgets_bars.js), and choose **Install**.
-* Go to [mint.com](http://mint.com/), log in, and go to Budgets screen.
-
+1. If you use Chrome, download the [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) extension.
+2. On other browsers, use the [GreaseMonkey](https://addons.mozilla.org/en-GB/firefox/addon/greasemonkey/) extension.
+3. Once installed, click on [this](https://raw.githubusercontent.com/xanderak/Mint-scaled-budget-bars/master/mint_scaled_budgets_bars.js), and choose **Install**.
+4. Go to [mint.com](http://mint.com/), log in, and go to Budgets screen.
 
 ## Notes
 
